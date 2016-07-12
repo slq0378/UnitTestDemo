@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HouseManagerViewController.h"
 
 @interface ViewController ()
 
@@ -17,14 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    [self getNum];
-    NSLog(@"hahah");
+
 }
 
-- (NSInteger )getNum
-{
-    return 100;
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    HouseManagerViewController *vc = [[HouseManagerViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:^{
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

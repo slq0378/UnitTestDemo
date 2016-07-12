@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>单元测试001.xcscheme</key>
+		<key>UnitTestDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -23,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>E44DBAA11C7492F500FAB6C2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E49A27C01D3482ED00ABB41A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
