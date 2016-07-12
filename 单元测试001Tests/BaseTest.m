@@ -1,18 +1,18 @@
 //
-//  ____001Tests.m
-//  单元测试001Tests
+//  BaseTest.m
+//  单元测试001
 //
-//  Created by Christian on 16/2/17.
+//  Created by Christian on 16/7/12.
 //  Copyright © 2016年 slq. All rights reserved.
-//
+//  基本测试类
 
 #import <XCTest/XCTest.h>
 
-@interface ____001Tests : XCTestCase
+@interface BaseTest : XCTestCase
 
 @end
 
-@implementation ____001Tests
+@implementation BaseTest
 
 - (void)setUp {
     [super setUp];

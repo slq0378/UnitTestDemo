@@ -14,8 +14,10 @@
 		E44DBA8C1C7492F500FAB6C2 /* ____001.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E44DBA8A1C7492F500FAB6C2 /* ____001.xcdatamodeld */; };
 		E44DBA8E1C7492F500FAB6C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E44DBA8D1C7492F500FAB6C2 /* Assets.xcassets */; };
 		E44DBA911C7492F500FAB6C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44DBA8F1C7492F500FAB6C2 /* LaunchScreen.storyboard */; };
-		E44DBA9C1C7492F500FAB6C2 /* ____001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E44DBA9B1C7492F500FAB6C2 /* ____001Tests.m */; };
 		E44DBAA71C7492F500FAB6C2 /* ____001UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E44DBAA61C7492F500FAB6C2 /* ____001UITests.m */; };
+		E49A278E1D347DE200ABB41A /* HouseManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49A278D1D347DE200ABB41A /* HouseManagerViewController.m */; };
+		E49A27901D347E0A00ABB41A /* BaseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E49A278F1D347E0A00ABB41A /* BaseTest.m */; };
+		E49A27921D347E1800ABB41A /* HouseManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E49A27911D347E1800ABB41A /* HouseManagerTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +50,14 @@
 		E44DBA901C7492F500FAB6C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E44DBA921C7492F500FAB6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E44DBA971C7492F500FAB6C2 /* 单元测试001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "单元测试001Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E44DBA9B1C7492F500FAB6C2 /* ____001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____001Tests.m"; sourceTree = "<group>"; };
 		E44DBA9D1C7492F500FAB6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E44DBAA21C7492F500FAB6C2 /* 单元测试001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "单元测试001UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44DBAA61C7492F500FAB6C2 /* ____001UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____001UITests.m"; sourceTree = "<group>"; };
 		E44DBAA81C7492F500FAB6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49A278C1D347DE200ABB41A /* HouseManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseManagerViewController.h; sourceTree = "<group>"; };
+		E49A278D1D347DE200ABB41A /* HouseManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseManagerViewController.m; sourceTree = "<group>"; };
+		E49A278F1D347E0A00ABB41A /* BaseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTest.m; sourceTree = "<group>"; };
+		E49A27911D347E1800ABB41A /* HouseManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseManagerTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,12 +112,8 @@
 				E44DBA821C7492F500FAB6C2 /* AppDelegate.m */,
 				E44DBA841C7492F500FAB6C2 /* ViewController.h */,
 				E44DBA851C7492F500FAB6C2 /* ViewController.m */,
-				E44DBA871C7492F500FAB6C2 /* Main.storyboard */,
-				E44DBA8D1C7492F500FAB6C2 /* Assets.xcassets */,
-				E44DBA8F1C7492F500FAB6C2 /* LaunchScreen.storyboard */,
-				E44DBA921C7492F500FAB6C2 /* Info.plist */,
-				E44DBA8A1C7492F500FAB6C2 /* ____001.xcdatamodeld */,
 				E44DBA7E1C7492F500FAB6C2 /* Supporting Files */,
+				E49A27931D34817A00ABB41A /* 房屋管理 */,
 			);
 			path = "单元测试001";
 			sourceTree = "<group>";
@@ -120,6 +121,11 @@
 		E44DBA7E1C7492F500FAB6C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E44DBA921C7492F500FAB6C2 /* Info.plist */,
+				E44DBA871C7492F500FAB6C2 /* Main.storyboard */,
+				E44DBA8D1C7492F500FAB6C2 /* Assets.xcassets */,
+				E44DBA8F1C7492F500FAB6C2 /* LaunchScreen.storyboard */,
+				E44DBA8A1C7492F500FAB6C2 /* ____001.xcdatamodeld */,
 				E44DBA7F1C7492F500FAB6C2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -128,8 +134,9 @@
 		E44DBA9A1C7492F500FAB6C2 /* 单元测试001Tests */ = {
 			isa = PBXGroup;
 			children = (
-				E44DBA9B1C7492F500FAB6C2 /* ____001Tests.m */,
 				E44DBA9D1C7492F500FAB6C2 /* Info.plist */,
+				E49A278F1D347E0A00ABB41A /* BaseTest.m */,
+				E49A27911D347E1800ABB41A /* HouseManagerTest.m */,
 			);
 			path = "单元测试001Tests";
 			sourceTree = "<group>";
@@ -141,6 +148,15 @@
 				E44DBAA81C7492F500FAB6C2 /* Info.plist */,
 			);
 			path = "单元测试001UITests";
+			sourceTree = "<group>";
+		};
+		E49A27931D34817A00ABB41A /* 房屋管理 */ = {
+			isa = PBXGroup;
+			children = (
+				E49A278C1D347DE200ABB41A /* HouseManagerViewController.h */,
+				E49A278D1D347DE200ABB41A /* HouseManagerViewController.m */,
+			);
+			name = "房屋管理";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +293,7 @@
 				E44DBA8C1C7492F500FAB6C2 /* ____001.xcdatamodeld in Sources */,
 				E44DBA831C7492F500FAB6C2 /* AppDelegate.m in Sources */,
 				E44DBA801C7492F500FAB6C2 /* main.m in Sources */,
+				E49A278E1D347DE200ABB41A /* HouseManagerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +301,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E44DBA9C1C7492F500FAB6C2 /* ____001Tests.m in Sources */,
+				E49A27921D347E1800ABB41A /* HouseManagerTest.m in Sources */,
+				E49A27901D347E0A00ABB41A /* BaseTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +518,7 @@
 				E44DBAAD1C7492F500FAB6C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E44DBAAE1C7492F500FAB6C2 /* Build configuration list for PBXNativeTarget "单元测试001Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +527,7 @@
 				E44DBAB01C7492F500FAB6C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E44DBAB11C7492F500FAB6C2 /* Build configuration list for PBXNativeTarget "单元测试001UITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +536,7 @@
 				E44DBAB31C7492F500FAB6C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
